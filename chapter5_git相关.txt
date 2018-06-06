@@ -8,4 +8,5 @@ Github上有很多代码仓库，你可以把自己的代码放到github仓库�
 创建仓库
 下载仓库：git clone
 提交修改：git commit -m xxx
-
+推送到远端：git push
+在Windows下可以通过TortoiseGit来操作
