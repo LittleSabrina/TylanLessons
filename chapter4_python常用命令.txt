@@ -1,0 +1,30 @@
+# pip介绍
+pip是一款python包的管理工具
+什么是python包？import xxx
+xxx就是python库
+通过pip install xxx就可以安装名为xxx的python库，库在包里
+可以通过pip --version查看pip所在本地的路径（如：d:\python\lib\site-packages）
+该路径即为python包所在路径
+pip安装的python库所对应的包路径和pip所在路径一样，二者处于同级目录下
+
+# pip相关命令
+pip install xxx 安装
+pip uninstall xxx 卸载
+pip list 查看所安装的库
+pip --version 查看pip工具的位置和版本
+
+# python调试相关命令
+在cmd中输入python回车进入调试模式
+import xxx 引入名为xxx的python库
+
+【常见错误】
+如果出现了如下报错：
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'paramiko'
+意味着你没有安装名为paramiko的python库
+
+【解决方法】
+1、退出python调试模式：在cmd的python调试模式下输入exit()回车退出python调试模式
+2、在cmd中通过输入命令pip install paramiko回车来安装名为paramiko的python库
+3、如需卸载名为paramiko的python库，要在cmd中执行命令：pip uninstall paramiko
